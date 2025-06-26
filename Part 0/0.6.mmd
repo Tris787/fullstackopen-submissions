@@ -1,0 +1,14 @@
+sequenceDiagram
+        participant browser
+        participant server
+        Note right of browser: Event "onsubmit" triggers 
+        Note right of browser: Prevent default handling of form submit
+        Note right of browser: Create new note
+        Note right of browser: Add note to notes list
+        Note right of browser: Rerender note list
+        browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+        Note right of browser: Sending JSON
+        activate server
+        server-->>browser:JSON message (201)        
+        deactivate server
+        
