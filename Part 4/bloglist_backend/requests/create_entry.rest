@@ -1,0 +1,30 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlRyaXMiLCJpZCI6IjY4ODM3NGUzZjlmNmZjYTM2MTRiODdiYSIsImlhdCI6MTc1MzY3NjY3Mn0._t-YImPJcD7vX-fHs6q0kgzhkCkrsz4hhxy_a6hRpYk
+
+{
+  "title": "Test Title 115",
+  "author": "Tim Faust 2",
+  "url": "www.blog.de",
+  "likes": 11
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Test Title 2",
+  "author": "Hanswurst",
+  "url": "www.blog.de"
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "author": "Tim Faust 2",
+  "url": "www.blog.de",
+  "likes": 11
+}

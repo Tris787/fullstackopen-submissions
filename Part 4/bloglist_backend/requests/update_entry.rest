@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/687a00766f195af40f60e4ca
+Content-Type: application/json
+
+{
+  "title": "Update Title 4",
+  "author": "Tim Faust 2",
+  "url": "www.blog.de",
+  "likes": 11
+}
