@@ -1,0 +1,14 @@
+POST http://localhost:3003/api/blogs/6889ea193f60b573ed33c07c/comments
+Content-Type: application/json
+
+{ "content": "Sehr gut" }
+
+###
+POST http://localhost:3003/api/blogs/68c2931723934e560d26e0d9/comments
+Content-Type: application/json
+
+{ "content": "Höchste Genüsse" }
+
+
+###
+GET http://localhost:3003/api/blogs/6889ea193f60b573ed33c07c/comments

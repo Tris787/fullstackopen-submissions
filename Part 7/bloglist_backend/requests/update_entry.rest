@@ -1,0 +1,12 @@
+PUT http://localhost:3003/api/blogs/6889be6862190d8cb5cc7dfb
+Content-Type: application/json
+
+{
+  "title": "Once again",
+  "author": "Maja",
+  "url": "maja.de",
+  "likes": 2
+}
+
+###
+GET http://localhost:3003/api/blogs
